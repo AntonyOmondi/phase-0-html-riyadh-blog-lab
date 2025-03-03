@@ -6,10 +6,10 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 29%, rgba(121, 9, 104, 1) 85%);
   background-size: cover;
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 100%;
 }
 
@@ -25,17 +25,17 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+  font-family: 'Roboto', 'Gabriela',sans-serif;
+  color: #ded2d2;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 4em;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-top: .5em;
 }
 
@@ -53,10 +53,11 @@ img {
 
 p {
   font-size: 1em;
+  color: rgb(55, 92, 92);
 }
 
 a {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 
